@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I want a duck..</title>
+        <link rel="stylesheet" href="Duck.css">
+        <head>
+
+     <body>
+        <h1>Please, get me a duck.</h1>
+        <img class="img" src="Duck.jfif">
+         <a href="index3.html">
+        <button onclick="nextPage()">Next →</button>
+         </a>
+        <body>
+
+        <style>
+        body{
+            background-color: #fffeea;
+        }
+
+        h1{
+            text-align: center;
+            justify-content: center;
+            font-size: 70px;
+
+        }
+
+        .img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 200px;
+            width: 200px;
+            
+            
+
+            
+        }
+
+        button{
+            font-size: 20px;
+            align-items: center;
+
+        }
+        </style>
+
+        <script>
+        function nextPage() {
+            document.body.classList.add("slide-out");
+
+            setTimeout(function() {
+                window.location.href = "duck2.html";
+            }, 500);
+        }
+    </script>
+
+<html>
